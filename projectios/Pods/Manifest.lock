@@ -1,0 +1,16 @@
+PODS:
+  - SwiftMessageBar (5.6.1)
+
+DEPENDENCIES:
+  - SwiftMessageBar (~> 5.6.1)
+
+SPEC REPOS:
+  trunk:
+    - SwiftMessageBar
+
+SPEC CHECKSUMS:
+  SwiftMessageBar: bb93132e3cd4c8896a971df1b425a587bc5e26ae
+
+PODFILE CHECKSUM: d4df9a23c887e189c459209e53b76887876c998e
+
+COCOAPODS: 1.10.1
