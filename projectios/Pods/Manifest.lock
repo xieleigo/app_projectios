@@ -1,16 +1,28 @@
 PODS:
-  - SwiftMessageBar (5.6.1)
+  - Alamofire (5.4.0)
+  - SnapKit (5.0.1)
+  - SwiftyJSON (5.0.0)
+  - Tiercel (3.2.0)
 
 DEPENDENCIES:
-  - SwiftMessageBar (~> 5.6.1)
+  - Alamofire
+  - SnapKit
+  - SwiftyJSON
+  - Tiercel
 
 SPEC REPOS:
   trunk:
-    - SwiftMessageBar
+    - Alamofire
+    - SnapKit
+    - SwiftyJSON
+    - Tiercel
 
 SPEC CHECKSUMS:
-  SwiftMessageBar: bb93132e3cd4c8896a971df1b425a587bc5e26ae
+  Alamofire: 3b6a534a3df22db367e4dedeeca73d1ddfcf0e2f
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+  Tiercel: 37c00d3d309657951d00ae68dcb6ce8c7dccf584
 
-PODFILE CHECKSUM: d4df9a23c887e189c459209e53b76887876c998e
+PODFILE CHECKSUM: 884f3d8871bc5a4973cc421c9e2c657c30bc14a4
 
 COCOAPODS: 1.10.1

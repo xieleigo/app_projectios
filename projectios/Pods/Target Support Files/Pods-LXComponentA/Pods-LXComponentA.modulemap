@@ -1,0 +1,6 @@
+module Pods_LXComponentA {
+  umbrella header "Pods-LXComponentA-umbrella.h"
+
+  export *
+  module * { export * }
+}

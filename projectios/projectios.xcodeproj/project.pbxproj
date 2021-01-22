@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,7 @@
 		4F77AB4425BAC7A5005EF326 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F77AB4225BAC7A5005EF326 /* LaunchScreen.storyboard */; };
 		4F77AB4F25BAC7A5005EF326 /* projectiosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77AB4E25BAC7A5005EF326 /* projectiosTests.swift */; };
 		4F77AB5A25BAC7A5005EF326 /* projectiosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F77AB5925BAC7A5005EF326 /* projectiosUITests.swift */; };
+		4F77ABB825BACBFB005EF326 /* LXComponentA.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F77ABA925BACABF005EF326 /* LXComponentA.framework */; };
 		58C1D1A3763044BD31029E05 /* Pods_projectiosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1E36448A7B9C227A8B34546 /* Pods_projectiosTests.framework */; };
 		A17B629D78B8A6376F3A5BA3 /* Pods_projectios_projectiosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7D8F39F603497D4EE36C8D5 /* Pods_projectios_projectiosUITests.framework */; };
 		CDD904FC8E0BA3B16A433D15 /* Pods_projectios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D084FE9D2A89E2CB13326004 /* Pods_projectios.framework */; };
@@ -35,6 +36,20 @@
 			remoteGlobalIDString = 4F77AB3325BAC7A1005EF326;
 			remoteInfo = projectios;
 		};
+		4F77ABA825BACABF005EF326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F77ABA125BACABE005EF326 /* LXComponentA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F77AB8725BACABE005EF326;
+			remoteInfo = LXComponentA;
+		};
+		4F77ABAA25BACABF005EF326 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4F77ABA125BACABE005EF326 /* LXComponentA.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 4F77AB9025BACABE005EF326;
+			remoteInfo = LXComponentATests;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +69,7 @@
 		4F77AB5525BAC7A5005EF326 /* projectiosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = projectiosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F77AB5925BAC7A5005EF326 /* projectiosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = projectiosUITests.swift; sourceTree = "<group>"; };
 		4F77AB5B25BAC7A5005EF326 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F77ABA125BACABE005EF326 /* LXComponentA.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = LXComponentA.xcodeproj; path = LXComponentA/LXComponentA.xcodeproj; sourceTree = "<group>"; };
 		620A294E039249F43A383B84 /* Pods-projectiosTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectiosTests.release.xcconfig"; path = "Target Support Files/Pods-projectiosTests/Pods-projectiosTests.release.xcconfig"; sourceTree = "<group>"; };
 		86F50A4053457EBB7300CAD1 /* Pods-projectiosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectiosTests.debug.xcconfig"; path = "Target Support Files/Pods-projectiosTests/Pods-projectiosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		97F9FC076779664062E6C13D /* Pods-projectios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-projectios.debug.xcconfig"; path = "Target Support Files/Pods-projectios/Pods-projectios.debug.xcconfig"; sourceTree = "<group>"; };
@@ -68,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4F77ABB825BACBFB005EF326 /* LXComponentA.framework in Frameworks */,
 				CDD904FC8E0BA3B16A433D15 /* Pods_projectios.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +111,7 @@
 		4F77AB2B25BAC7A1005EF326 = {
 			isa = PBXGroup;
 			children = (
+				4F77ABA125BACABE005EF326 /* LXComponentA.xcodeproj */,
 				4F77AB3625BAC7A1005EF326 /* projectios */,
 				4F77AB4D25BAC7A5005EF326 /* projectiosTests */,
 				4F77AB5825BAC7A5005EF326 /* projectiosUITests */,
@@ -143,6 +161,15 @@
 				4F77AB5B25BAC7A5005EF326 /* Info.plist */,
 			);
 			path = projectiosUITests;
+			sourceTree = "<group>";
+		};
+		4F77ABA225BACABE005EF326 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4F77ABA925BACABF005EF326 /* LXComponentA.framework */,
+				4F77ABAB25BACABF005EF326 /* LXComponentATests.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		845DF479CE7A2D12C91F8695 /* Frameworks */ = {
@@ -263,6 +290,12 @@
 			mainGroup = 4F77AB2B25BAC7A1005EF326;
 			productRefGroup = 4F77AB3525BAC7A1005EF326 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 4F77ABA225BACABE005EF326 /* Products */;
+					ProjectRef = 4F77ABA125BACABE005EF326 /* LXComponentA.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				4F77AB3325BAC7A1005EF326 /* projectios */,
@@ -271,6 +304,23 @@
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		4F77ABA925BACABF005EF326 /* LXComponentA.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = LXComponentA.framework;
+			remoteRef = 4F77ABA825BACABF005EF326 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		4F77ABAB25BACABF005EF326 /* LXComponentATests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = LXComponentATests.xctest;
+			remoteRef = 4F77ABAA25BACABF005EF326 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		4F77AB3225BAC7A1005EF326 /* Resources */ = {
@@ -589,7 +639,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PBZHU7TMH4;
 				INFOPLIST_FILE = projectios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -610,7 +660,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = PBZHU7TMH4;
 				INFOPLIST_FILE = projectios/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

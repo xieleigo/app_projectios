@@ -1,21 +1,53 @@
-# Uncomment the next line to define a global platform for your project
-platform :ios, '13.0'
+# 假设我们需要在LjComponentA中封装网络层代码，需要用到三方库Alamofire，在podfile中进行如下修改
 
+# Uncomment the next line to define a global platform for your project
+platform :ios, '14.3'
+
+# 配置 workspace 路径
+workspace 'projectios.xcworkspace'
+
+############### 第三方依赖
+# 公有
+def workspace_pods
+  pod 'SwiftyJSON'
+end
+
+# 主工程
+def project_only_pods
+  pod 'SnapKit'
+end
+
+# 网络
+def network_layer_pods
+  pod 'Alamofire'
+  pod 'Tiercel'
+end
+
+############## 模块
+target 'LXComponentA' do
+  project '/Users/asdc/Documents/code/repository/source/app_projectios/projectios/LXComponentA/LXComponentA.xcodeproj'
+  
+  workspace_pods
+  network_layer_pods
+end
+
+################# 主工程
 target 'projectios' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for projectios
-
+  # Pods for TestComponent
+  workspace_pods
+  project_only_pods
+  network_layer_pods
+  
   target 'projectiosTests' do
     inherit! :search_paths
-    # Pods for testing
+    
   end
 
   target 'projectiosUITests' do
-    # Pods for testing
+    
   end
-  
-  pod 'SwiftMessageBar', '~> 5.6.1'
 
 end

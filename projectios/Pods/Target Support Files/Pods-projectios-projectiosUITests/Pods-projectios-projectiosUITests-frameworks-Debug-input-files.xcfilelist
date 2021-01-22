@@ -1,2 +1,5 @@
 ${PODS_ROOT}/Target Support Files/Pods-projectios-projectiosUITests/Pods-projectios-projectiosUITests-frameworks.sh
-${BUILT_PRODUCTS_DIR}/SwiftMessageBar/SwiftMessageBar.framework
+${BUILT_PRODUCTS_DIR}/Alamofire-framework/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON-framework/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/Tiercel-framework/Tiercel.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
